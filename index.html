@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Style Font -->
+    <style>
+      .fontxxx {
+        font-family: Mulish;
+      }
+
+      .fontxx {
+        font-family: Montserrat;
+      }
+
+      .fontx {
+        font-family: Poppins;
+      }
+
+      .nav-link {
+        position: relative;
+        text-decoration: none;
+      }
+
+      .nav-link::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 1.5px;
+        background: black;
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+      }
+
+      .nav-link:hover::after {
+        transform: scaleX(0.5); /* Memperlihatkan garis bawah saat di-hover */
+      }
+    </style>
+  </head>
+  <body style="background-color: #14213d; 
+  /* min-height: 2000px */
+  ">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fontxxx">
+      <div class="container-fluid mx-5">
+        <a
+          class="navbar-brand"
+          href="#"
+          style="color: #fca311; font-weight: 800"
+          >aldrik.</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active mx-5 nav-link fontx"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-5 nav-link fontx" href="#tentang"
+                >Tentang saya</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <!-- Hero Start -->
+    <div class="container mt-5">
+      <section id="home">
+        <div class="row ">
+          <div class="col d-none d-lg-block d-xl-block d-md-block">
+            <img
+              src="foto.jpg"
+              alt="Foto Orang Ganteng"
+              width="350"
+              style="border-radius: 50rem;"
+            />
+          </div>
+
+          <div class="col">
+            <div class="align-self-center">
+              <div class="mt-5 pt-5">
+                <h1 style="color: #fff" ; class="fontxx mt-4 pt-5">
+                  <span
+                    style="color: #fca311; font-weight: 700; font-size: 75px"
+                    >Hi!
+                  </span>
+                  <br />I'm Aldrik Noel Sianipar.
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tentang">
+        <div class="container text-center">
+        <div class="row">
+          <div class="col">
+          <div class="mt-5 fontx" style="color: #fff">
+            <h1
+              style="font-size: 1.5rem; font-weight: 600; color: #fca311"
+              class="justify-content-center"
+            >
+              Tentang
+            </h1>
+            <br />
+            <p>
+              Halo! Perkenalkan nama saya Aldrik Noel Sianipar, mahasiswa
+              Teknologi Informasi yang menjalani pendidikan di Universitas
+              Sumatera Utara.<br />
+              Saya termasuk orang yang memiliki ketertarikan besar terhadap
+              musik dan hal-hal baru. Kemampuan saya untuk berbaur dengan orang
+              lain membuka peluang bagi saya untuk menjalin pertemanan yang
+              dapat memperluas wawasan saya. Dengan semangat belajar dan
+              keterbukaan saya terhadap hal-hal baru, saya yakin dapat terus
+              berkembang sambil memberikan dampak positif bagi lingkungan
+              sekitar.
+            </p>
+          </div>
+          </div>
+        </div>
+        </div>  
+      </section>
+
+      <section id="pendidikan">
+        <div class="row justify-content-around mt-5 pt-5 container text-center">
+          <div class="col-4 fontxx">
+            <h1 style="font-size: 1.5rem; font-weight: 600; color: #fca311;">Pendidikan</h1>
+            <ol class="list-group list-group-numbered mt-5">
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">SMPS Mentari Bangsa Medan</div>
+                  2018 - 2021
+                </div>
+                <span class="badge text-bg-primary rounded-pill d-none d-lg-block d-xl-block d-md-block">3 yrs</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">SMAS Santo Thomas 1 Medan</div>
+                  2021 - 2024
+                </div>
+                <span class="badge text-bg-primary rounded-pill d-none d-lg-block d-xl-block d-md-block">3 yrs</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Universitas Sumatera Utara</div>
+                  2024 - now
+                </div>
+                <span class="badge text-bg-primary rounded-pill d-none d-lg-block d-xl-block d-md-block">on going</span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="col-4 fontxx">
+            <!-- Card start -->
+            <div class="card text-bg-light mb-3 mt-5" style="max-width: 18rem;">
+              <div class="card-header">Know more about me!</div>
+              <div class="card-body">
+                <h5 class="card-title">Here is my social media</h5>
+                <!-- Social Media Awal -->
+                <p class="card-text">
+                  <i class="bi bi-instagram"> 
+                    <a href="https://www.instagram.com/aldrvk/profilecard/?igsh=MWp2eWVwNWJsamg4OQ==" style="text-decoration: none;">@aldrvk</a>
+                  </i>
+                </p>
+                <!-- Social Media Akhir -->
+              </div>
+            </div>
+            <!-- Card end -->
+          </div>
+        </div>
+      </section>
+
+      <section id="keahlian">
+        <div class="row justify-content-around mt-5 pt-5 container">
+          <div class="col-4 fontxx">
+
+          </div>
+          <div class="col-4 fontxx">
+            <h1 style="font-size: 1.5rem; font-weight: 600; color: #fca311;" class="justify-content-center text-center">Keterampilan</h1>
+            <ul class="mt-5 justify-content-center" style="color: #fff;">
+              <li>Digital Graphic Design</li> 
+              <li>Photography</li>
+              <li>Music</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <!-- Hero End -->
+
+    <!-- Footer Start -->
+    <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
+      <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+        <div class="row text-center fontxx justify-content-center" style="font-size: 30px ;">
+          CONTACT ME FOR COLLABORATION!
+        </div>
+      </div>
+    </footer>
+    <footer class="bd-footer py-2 py-md-2 bg-dark">
+      <div class="container py-2 py-md-2 px-4 px-md-3 text-center">
+        <div class="row text-center fontxx justify-content-center" style="font-size: 17px ;color: #fca311;">
+          © 2024 by Aldrik Noel Sianipar.
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ends -->
+  </body>
+</html>
